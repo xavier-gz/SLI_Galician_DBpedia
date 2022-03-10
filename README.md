@@ -1,4 +1,4 @@
-# SLI_Galician_DBpedia
+# SLI Galician DBpedia
 ## DBpedia data and DBpedia Spotlight for Galician language
 
 |File|Size|Description|
