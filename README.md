@@ -13,14 +13,16 @@ Information and contact: Xavier Gómez Guinovart (xgg2021@gmail.com)
 ***
 ## Note
 
-Both files (**SLI_Galician_DBpedia_RDF_20151201.tar.gz** and **SLI_Galician_DBpedia_Spotlight_1.0.tar.gz**) has been split into 25MB parts with the split command. For instance:
+Both files (**SLI_Galician_DBpedia_RDF_20151201.tar.gz** and **SLI_Galician_DBpedia_Spotlight_1.0.tar.gz**) has been split into 25MB parts with the split command:
 
 ```console
 $ split -b 25M -d SLI_Galician_DBpedia_RDF_20151201.tar.gz SLI_Galician_DBpedia_RDF_20151201.tar.gz.part
+$ split -b 25M -d SLI_Galician_DBpedia_Spotlight_1.0.tar.gz SLI_Galician_DBpedia_Spotlight_1.0.tar.gz.part
 ```
 
 To rejoin these parts, you can use the cat command:
 
 ```console
 $ cat SLI_Galician_DBpedia_RDF_20151201.tar.gz.part* > SLI_Galician_DBpedia_RDF_20151201.tar.gz
+$ cat SLI_Galician_DBpedia_Spotlight_1.0.tar.gz.part* > SLI_Galician_DBpedia_Spotlight_1.0.tar.gz
 ```
